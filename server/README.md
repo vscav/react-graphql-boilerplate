@@ -1,4 +1,4 @@
-# graphql-react-boilerplate server
+# React/GraphQL boilerplate (server)
 
 ## Quick start
 
@@ -26,7 +26,7 @@ This will create a Docker instance called `graphql-react-boilerplate-db`, runnin
 Now, you actually want to create tables in database. The two following commands are based on the models and migrations files of our different tables.
 
 ```sh
-db:migrate
+yarn db:migrate
 ```
 
 This first command will will execute these steps :
@@ -35,7 +35,7 @@ This first command will will execute these steps :
 - Creates tables with all columns as specified in their migration files.
 
 ```sh
-db:migrate:undo
+yarn db:migrate:undo
 ```
 
 This second command will allow you to revert to old state (this command will revert most recent migrations).
@@ -45,7 +45,7 @@ This second command will allow you to revert to old state (this command will rev
 Launch the Express server by typing the following command :
 
 ```sh
-watch
+yarn watch
 ```
 
 You can then navigate to ```localhost:7000/graphql``` in order to access the GraphQL playground.

@@ -11,7 +11,7 @@ Then, follow the different instructions indicated in the README files from the `
 
 ## Information
 
-The example illustrates only a query. The example will soon be completed with a mutation.
+The example is based on a category/projects relationship. It illustrates only a query. The example will soon be completed with a mutation.
 
 ## Useful resources
 
